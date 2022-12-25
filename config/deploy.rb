@@ -2,7 +2,7 @@
 lock "~> 3.17.1"
 
 set :application, 'Aws_test'
-set :repo_url, 'git@github.com:adityachavan2681/AWS-Test.git' # Edit this to match your repository
+set :repo_url, 'git@github.com:AdityaChavan2681/AWS-Test.git' # Edit this to match your repository
 set :branch, :master
 set :deploy_to, '/home/deploy/Aws_test'
 set :pty, true
