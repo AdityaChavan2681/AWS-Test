@@ -1,24 +1,45 @@
-# README
+🧠 AWS Test — Rails Deployment via EC2
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+📌 Overview
+This repo was created to test deployment of a Ruby on Rails application using AWS EC2. It serves as a sandbox for understanding cloud hosting, server configuration, and environment setup for production-grade Rails apps.
 
-Things you may want to cover:
+🛠️ Tech Stack
+Framework: Ruby on Rails
 
-* Ruby version
+Cloud Platform: AWS EC2
 
-* System dependencies
+Tools: Capistrano (optional), SSH, GitHub, Linux CLI
 
-* Configuration
+Languages: Ruby, HTML, JavaScript, CSS
 
-* Database creation
+🚀 Purpose
+Explore EC2 instance setup for Rails hosting
 
-* Database initialization
+Test deployment flow from GitHub to AWS
 
-* How to run the test suite
+Understand environment variables, server provisioning, and asset precompilation
 
-* Services (job queues, cache servers, search engines, etc.)
+Practice remote debugging and log inspection
 
-* Deployment instructions
+📁 Structure Highlights
+Standard Rails folder setup
 
-* ...
+Capfile and config/deploy.rb (if used) for deployment logic
+
+README.md: Placeholder for deployment steps and notes
+
+🧪 How to Use
+This repo assumes familiarity with:
+
+Launching EC2 instances
+
+Installing Ruby, Rails, and dependencies on Ubuntu
+
+Configuring Nginx or Apache (optional)
+
+Setting up PostgreSQL or SQLite
+
+Using SSH keys and GitHub integration
+
+🧠 Reflection
+This project helped me explore the bridge between development and deployment, giving me hands-on experience with cloud infrastructure and Rails production setup. It’s a foundational step toward mastering full-stack delivery.
